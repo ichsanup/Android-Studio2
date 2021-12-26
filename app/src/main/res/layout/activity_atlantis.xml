@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".atlantis"
+    android:background="@drawable/gradient"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="ATLANTIS"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:background="@drawable/gradient1"
+            android:textAllCaps="true"
+            android:textAppearance="@style/CardView.Dark"/>
+        <ImageView
+            android:id="@+id/atlantis"
+            android:layout_width="350dp"
+            android:layout_height="170dp"
+            android:background="@drawable/atlantiswater1"
+            android:layout_below="@+id/text"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="22dp"/>
+
+        <TextView
+            android:paddingLeft="15dp"
+            android:id="@+id/atlantis1"
+            android:paddingTop="10dp"
+            android:layout_below="@+id/atlantis"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="  Tempat wisata Ancol yang ini cocok banget buat kamu yang suka bermain air. Di Atlantis Water Adventure ada banyak wahana air seru yang bisa melepas penat. Ada 5 wisata air di sini seperti kolam ombak, kolam tanding, kolam apung, Viddy Pool, dan Crazy Highest Longest Side.
+
+Wahana Crazy Highest Longest Side cocok buat kamu yang suka petualangan ekstrem. Wahana ini akan membawa kamu meluncur dalam kecepatan 12 kilometer per jam. Terdapat dua seluncuran yang wajib kamu coba, pertama yang memiliki panjang 149 kilometer dengan model berkelok dan 122 meter yang memiliki bentuk seluncuran terbuka."
+            android:textSize="18sp"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+        <TextView
+            android:id="@+id/atlantis2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/atlantis1"
+            android:layout_marginTop="-120dp"
+            android:text="Beli Ticket : https://www.ancol.com/tiket"
+            android:autoLink="web"
+            android:background="@drawable/gradient1"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</RelativeLayout>

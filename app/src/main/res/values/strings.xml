@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DUFAN</string>
+    <string name="subtitle"><b>SEJARAH</b></string>
+    <drawable name="gambar">@drawable/ancol</drawable>
+    <string name="isi">Ancol Taman Impian atau biasa disebut Ancol merupakan sebuah kawasan wisata terpadu yang ditunjuk oleh Pemerintah Provinsi DKI Jakarta.
+    Untuk mewujudkan tujuan tersebut, Pemda DKI menunjuk PT Pembangunan Jaya sebagai Badan Pelaksana Pembangunan (BPP) Proyek Ancol yang dilakukan secara bertahap sesuai dengan peningkatan perekonomian nasional serta daya beli masyarakat. </string>
+    <string name="isi1">
+        Pada 2 Juli 2004, Ancol melakukan “go public” dan mengganti statusnya menjadi PT Pembangunan Jaya Ancol Tbk., dengan kepemilikan saham 72% oleh Pemda DKI Jakarta, 18% oleh PT Pembangunan Jaya, dan 10% oleh masyarakat.
+        Langkah “go public” ini dilakukan untuk lebih meningkatkan kinerja perusahaan, karena akan lebih terkontrol, terukur, efisien dan efektif dengan tingkat profesionalisme yang tinggi serta menciptakan sebuah Good and Clean Governance. Kinerja dan citra yang positif ini akan menjadikan perusahaan terus tumbuh dan berkembang secara sehat pada masa depan.
+    </string>
+    <string name="subtitle2"><b>OBJECT WISATA ANCOL</b></string>
+    <string name="isi2">Dikelola oleh anak perusahaannya terutama oleh PT Taman Impian Jaya Ancol (“TIJA”) yang meliputi pengelolaan kawasan pariwisata (rekreasi dan resor) dan kegiatan usaha penunjang: entertainment, konvensi dan wisata belanja. PJA mengelola “area pariwisata terintegrasi” seluas 552 Ha, lokasi dekat pantai, terbaik di Jakarta dengan kemudahan akses melalui jalan tol, busway dan kereta api.
+    Ancol memiliki beberapa object wisata didalamnya diantara lain yaitu : Dufan, Seaworld, Ocean Dream Samudra, Ocean Eco Park, Atlantis, dan Alive Museum </string>
+
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".alamat"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/gradient">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/gradient1"
+            android:gravity="center_horizontal"
+            android:paddingTop="7dp"
+            android:text="DUFAN"
+            android:textAllCaps="true"
+            android:textAppearance="@style/CardView.Dark"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:background="@drawable/dufan3"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/dufan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="      Dunia Fantasi Ancol atau biasa disebut Dufan Ancol, adalah sebuah theme park modern yang sudah berdiri sejak lama yakni pada tanggal 29 Agustus tahun 1985.
+            \n\nDunia Fantasi merupakan bagian dari Taman Impian Jaya Ancol, dimana di kawasan tersebut masih banyak lagi lokasi wisata lainnya seperti: \n
+    Sea World Ancol, \n
+    Atlantis Water Adventure, \n
+    Gelanggang Samudra, \n
+    Pasar Seni, \n
+    Pantai  Ancol, \n
+    Padang Golf, \n
+    Gondola, \n
+    Putri Duyung Cottages, \n
+    Marina, dan masih banyak lagi yang lain."
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:fontFamily="@font/garamond"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:text="Alamat dan Lokasi : Jl. Lodan Timur No.7, RW.10, Ancol, Kec. Pademangan, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14430"
+    android:gravity="center_horizontal"
+    android:paddingTop="10dp"
+    android:fontFamily="@font/garamond"
+    android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="DIRECTION"
+            android:background="@drawable/gradient"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

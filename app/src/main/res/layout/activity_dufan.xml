@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dufan"
+    android:background="@drawable/gradient"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="DUFAN"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:background="@drawable/gradient1"
+        android:textAllCaps="true"
+        android:textAppearance="@style/CardView.Dark"/>
+    <ImageView
+        android:id="@+id/dufan"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:background="@drawable/dufan"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="22dp"/>
+
+        <TextView
+            android:paddingLeft="15dp"
+            android:id="@+id/dufan1"
+            android:paddingTop="10dp"
+            android:layout_below="@+id/dufan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="  Dunia Fantasi atau dufan menjadi tempat wisata Ancol urutan pertama yang harus kamu kunjungi. Dufan merupakan salah satu bagian dari Ancol Dreamland atau Taman Impian Jaya Ancol. \n\n Tempat wisata Ancol satu ini banyak menarik perhatian wisatawan. Hal ini karena Dufan punya beraneka ragam wahana yang bisa dinikmati mulau dari anak-anak hingga orang dewasa \n\n Wahana bermain seperti komidi putar, hysteria, halilintar, tornado, bianglala, dan aneka wahana ekstrem lainnya. Tak hanya ragam wahana seru dan menantang, Dufan juga menawarkan beragam wahana edukasi seperti Fisika Dunia Fantasi (Fidufa) dan pentas prestasi."
+            android:textSize="18sp"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+    <TextView
+        android:id="@+id/dufan2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/dufan1"
+        android:layout_marginTop="-100dp"
+        android:text="Beli Ticket : https://www.ancol.com/tiket"
+        android:autoLink="web"
+        android:background="@drawable/gradient1"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textSize="18sp" />
+
+</LinearLayout>
+</RelativeLayout>

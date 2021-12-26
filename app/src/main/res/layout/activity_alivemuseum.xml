@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".alivemuseum"
+    android:background="@drawable/gradient"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textColor="@color/black"
+            android:text="ALIVE MUSEUM"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:background="@drawable/gradient1"
+            android:textAllCaps="true"
+            android:textAppearance="@style/CardView.Dark"/>
+        <ImageView
+            android:id="@+id/alive"
+            android:layout_width="350dp"
+            android:layout_height="120dp"
+            android:background="@drawable/alivemuseum1"
+            android:layout_below="@+id/text"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="22dp"/>
+
+        <TextView
+            android:paddingLeft="15dp"
+            android:id="@+id/alive1"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/alive"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="  Liburan seru lainnya di Ancol yang bisa dipilih adalah Alive Museum. Terletak di Ancol Beach City Mall lantai 3, kamu bisa menikmati karya seni lukis dan seni rupa yang dimodifikasi dengan teknologi digital di Alive Museum. Tempat ini akan membuat imajinasi kamu ikut bermain saat mencoba wahana yang dilengkapi dengan ilusi 3D seperti Zona Fantasi, Dark Road, Zona Horror, Zona Ekstrim, Zona Sirkus, dan Zona Travel. Selain itu, kamu juga bisa berswafoto bersama patung-patung lilin dari para selebritas Indonesia dan Korea yang nampak nyata."
+            android:textSize="18sp"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+        <TextView
+            android:id="@+id/alive2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/alive1"
+            android:layout_marginTop="-120dp"
+            android:text="Beli Ticket : https://www.ancol.com/tiket"
+            android:autoLink="web"
+            android:background="@drawable/gradient1"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</RelativeLayout>

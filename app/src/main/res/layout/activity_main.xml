@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center">
+
+    <ImageView
+        android:id="@id/ancol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/ancol1"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/ancol"
+            android:fontFamily="@font/garamond"
+            android:paddingTop="20dp"
+            android:text="DUFAN \nDUNIA FANTASTIS"
+            android:textAlignment="center"
+            android:textColor="#005AA7"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/ancol"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:background="#74ebd5"
+            android:fontFamily="@font/garamondit"
+            android:text="DUFAN"
+            android:textColor="#005AA7"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/button1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:background="#74ebd5"
+            android:fontFamily="@font/garamondit"
+            android:text="ABOUT ANCOL"
+            android:textColor="#005AA7"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/button2"
+            android:layout_marginTop="7dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#005AA7"
+            android:text="AROUND ANCOL"
+            android:fontFamily="@font/garamondit"
+            android:textSize="30sp"
+            android:background="#74ebd5"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".seaworld"
+    android:background="@drawable/gradient"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="SEAWORLD"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:background="@drawable/gradient1"
+            android:textAllCaps="true"
+            android:textAppearance="@style/CardView.Dark"/>
+        <ImageView
+            android:id="@+id/ocean"
+            android:layout_width="350dp"
+            android:layout_height="170dp"
+            android:background="@drawable/seaworld1"
+            android:layout_below="@+id/text"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="22dp"/>
+
+        <TextView
+            android:paddingLeft="15dp"
+            android:id="@+id/ocean1"
+            android:paddingTop="10dp"
+            android:layout_below="@+id/ocean"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="  Tak hanya wahana bermain yang seru, di tempat wisata Ancol kamu juga bisa mengenal kehidupan bawah laut yang beragam. Di Sea World kamu akan merasakan pengalaman liburan yang berbeda.
+
+Di sini kamu bisa belajar seputar alam bawah laut. Tak hanya melihat konservasi ikan laut, di Sea World kamu juga bisa melihat konservasi ikan tawar. Selain itu, masih ada banyak spesies ikan populer hingga langka bisa disaksikan di sini.
+
+Kamu bisa melihat sekitar 7.000 an biota air tawar yang ditampilkan dalam akuarium raksasa serta kolam-kolam terbuka. Sesekali kamu juga akan disajikan atraksi Feeding Show, yaitu aksi penyelam memberi makan biota laut.
+
+Apabila kamu ingin mengenal lebih dekat biota laut, Sea World juga menyediakan kolam sentuh agar kamu bisa merasakan serunya berinteraksi langsung dengan biota laut. Lengkapnya fasilitas yang ditawarkan, tak heran kalau tempat wisata Ancol ini selalu ramai pengunjung."
+            android:textSize="18sp"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+        <TextView
+            android:id="@+id/ocean2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/ocean1"
+            android:layout_marginTop="10dp"
+            android:text="Beli Ticket : https://www.ancol.com/tiket"
+            android:autoLink="web"
+            android:background="@drawable/gradient1"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
